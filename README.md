@@ -1,10 +1,10 @@
-# Web Development Project 2 - *Apple Cards*
+# Web Development Project 2 / 3- *Apple Cards*
 
 Submitted by: **Nico Bautista-Libreros**
 
-This web app: **insert description**
+This web app: **Flashcards for Apples**
 
-Time spent: **3** hours spent in total
+Time spent: **3 + X** hours spent in total
 
 ## Required Features
 
@@ -16,11 +16,21 @@ The following **required** functionality is completed:
 - [x] **Clicking on the card shows the corresponding component of the information pair**
 - [x] **Clicking the next button displays a random new card**
 
+- [ ] **The user can enter their guess in a box before seeing the flipside of the card**
+- [ ] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [ ] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [ ] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
+
 The following **optional** features are implemented:
 
 - [ ] Cards contains images in addition to or in place of text
 - [ ] Cards have different visual styles such as color based on their category
   - [ ] *visual style implemented*
+
+- [ ] A shuffle button is used to randomize the order of the cards
+- [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [ ] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
@@ -41,7 +51,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+User states.
 
 ## License
 
