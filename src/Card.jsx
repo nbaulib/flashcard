@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Card.css';
 
 const Card = ({ cardPairs }) => {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
@@ -21,6 +22,10 @@ const Card = ({ cardPairs }) => {
         <div className="card-content">
           {showQuestion ? <p>{cardPairs[currentCardIndex].question}</p> : <p>{cardPairs[currentCardIndex].answer}</p>}
         </div>
+      </div>
+      <div className='guessing'>
+        <input type="text" name="answer" placeholder="Enter Guess Here" class="" value=""/>
+        <button>Submit</button>
       </div>
     </div>
   );
